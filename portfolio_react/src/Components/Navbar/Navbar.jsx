@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav className="flex flex-wrap mb-8 justify-between md:items-center text-white px-10 pt-6 md:px-20">
         <span className="">
-          <img className="w-40 h-13" src={logo} alt="Logo" />
+          <img className="w-40 h-11" src={logo} alt="Logo" />
         </span>
         
         <ul className="mx-24 py-2 mt-4 text-2xl font-semibold md:mt-5 bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-10">
