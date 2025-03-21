@@ -21,7 +21,7 @@ const Navbar = () => {
             (item, index) => (
               <li
                 key={index}
-                className="relative cursor-pointer after:content-[''] after:absolute after:w-0 after:h-1 after:bg-yellow-500 after:left-0 after:bottom-[-6px] after:transition-all after:duration-300 hover:after:w-full"
+                className="relative cursor-pointer after:content-[''] after:absolute after:w-0 after:h-1 after:bg-yellow-500 after:left-0 after:bottom-[-26px] after:transition-all after:duration-300 hover:after:w-full"
               >
                 <a href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}>
                   {item}
