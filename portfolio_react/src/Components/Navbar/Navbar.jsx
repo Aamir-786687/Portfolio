@@ -40,9 +40,10 @@ const Navbar = () => {
 
         {/* Desktop Button */}
         <div className="hidden md:block">
-          <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-lg font-bold py-2 px-6 rounded-full shadow-lg hover:scale-105 transition-all duration-300">
-            Button
-          </button>
+        <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xl font-bold py-2 px-6 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-[0_10px_20px_rgba(255,165,0,0.5)] hover:from-orange-500 hover:to-yellow-400">
+  Contact Me
+</button>
+
         </div>
 
         {/* Mobile Menu */}
@@ -65,9 +66,11 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="mt-10 flex justify-center">
-            <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-lg font-bold py-2 px-6 rounded-full shadow-lg hover:scale-105 transition-all duration-300">
-              Button
-            </button>
+          <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xl font-bold py-2 px-6 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-[0_10px_20px_rgba(255,165,0,0.5)] hover:from-orange-500 hover:to-yellow-400">
+  Contact Me
+</button>
+
+
           </div>
         </div>
       </nav>
