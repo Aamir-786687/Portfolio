@@ -56,8 +56,8 @@
             "id": 3,
             "title": "Jio Hotstar Clone",
             "days": "3 days work",
-            "image": "cinema",
-            "live": "https://jiocinemaclone-eta.vercel.app/",
+            "image": "hotstar",
+            "live": "https://projects-solo.vercel.app/",
             "source": "https://github.com/Aamir-786687/Projects_Solo/tree/main/Jio_Cinema",
             "description": "A streaming app interface clone for movies and series display with search functionality.",
             "techStack": "React, HTML,  CSS and Firebase"
