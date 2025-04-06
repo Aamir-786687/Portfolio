@@ -78,19 +78,7 @@ export default function Education() {
               ))}
             </div>
 
-            <div className="flex justify-center">
-            <a
-            href="https://drive.google.com/file/d/1k2HeSdWSGQeYIUNXcw16bedTLw4D9Nml/view?usp=drive_link"
-            target="_blank"
-            className="group relative inline-flex items-center gap-2 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105"
-          >
-            Download Full CV
-            <span className="transform transition-transform duration-300 group-hover:translate-x-1">
-              <ArrowRight />
-            </span>
-            <span className="absolute inset-0 bg-white opacity-10 rounded-full scale-0 group-hover:scale-150 transition-transform duration-500"></span>
-          </a>
-            </div>
+           
           </div>
         </div>
       </main>
