@@ -1,14 +1,32 @@
-import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/Home/Home";
+// src/App.jsx
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import ContactMe from "./pages/ContactMe";
+import Education from "./pages/education/Education";
 
-const App = () => {
+function App() {
   return (
-    <div className="bg-gradient-to-r from-[#220322] via-[#400240] to-[#400240] h-auto w-full overflow-hidden">
-      <Navbar />
-      <Home/>
-    </div>
+    <Router>
+      <div className="flex bg-white">
+        <Sidebar />
+        
+        <div className="ml-[240px] w-full p-6"> {/* Adjust for sidebar width */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/contact" element={<ContactMe />} />
+            <Route path="/education" element={<Education />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
-};
+}
 
 export default App;
