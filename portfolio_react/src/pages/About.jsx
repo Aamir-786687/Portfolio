@@ -101,8 +101,8 @@ export default function About() {
               <div className="bg-[#141313] text-white p-6 rounded-lg italic text-xl flex items-start space-x-4">
                 <img src={emage} alt="quote" className="w-18 h-18 m-2" />
                 <p className="mt-4 ml-5 text-base">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Faucibus sed sit ultrices et sed metus sollicitudin.”
+                  “I'm Aamir Ahmad from Delhi, currently pursuing Frontend Web Development at Masai School with a focus on React.js. 
+                  I'm passionate about building user-friendly web applications and growing as a developer.”
                 </p>
               </div>
             </div>

@@ -6,7 +6,8 @@ import { ArrowUpRight, Globe, Github } from "lucide-react";
 // Import local images here
 import Shopkart from "../assets/Flipkart.png";
 import ebay from "../assets/E-bay.png";
-import cinema from "../assets/jio.png"; 
+import cinema from "../assets/jio.png";
+import portfolio from '../assets/Portfolio.png' 
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -16,6 +17,7 @@ export default function Projects() {
     Shopkart,
     ebay,
     cinema,
+    portfolio,
   };
 
   useEffect(() => {
@@ -35,9 +37,7 @@ export default function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projects.map((project) => (
               <div key={project.id} className="relative group">
-                <img
-                  src={imageMap[project.image]}
-                  alt={project.title}
+                <img src={imageMap[project.image]} alt={project.title}
                   className="w-[580px] h-[280px] p-2 object-cover rounded-lg border-[3px] border-black"
                 />
                 <div className="mt-2">

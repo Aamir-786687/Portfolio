@@ -61,7 +61,18 @@
             "source": "https://github.com/Aamir-786687/Projects_Solo/tree/main/Jio_Cinema",
             "description": "A streaming app interface clone for movies and series display with search functionality.",
             "techStack": "React, HTML,  CSS and Firebase"
-        }
+        },
+        {
+            "id": 4,
+            "title": "Personal Portfolio",
+            "days": "6 days work",
+            "image": "portfolio",
+            "live": "#",
+            "source": "https://github.com/Aamir-786687/Portfolio/tree/main/portfolio_react",
+            "description": "A personal portfolio website showcasing skills, projects, and experience with smooth UI, animations, and responsive design.",
+            "techStack": "React, HTML, CSS and Firebase"
+          }
+          
     ],
     "technicalSkills": [
         {
