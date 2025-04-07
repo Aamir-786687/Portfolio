@@ -28,17 +28,20 @@ export default function About() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin size={16} />
-                  <span>New Delhi, Delhi, India</span>
+                  <span>Delhi, India</span>
                 </div>
               </div>
 
               <div className="relative w-[250px] h-[250px] mb-6">
-                <img src={ME} alt="Aamir Ahmad"  className="rounded-full object-cover w-full h-full bg-gray-200"/>
+                <img
+                  src={ME}
+                  alt="Aamir Ahmad"
+                  className="rounded-full object-cover w-full h-full bg-gray-200"
+                />
 
                 {/* <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-gradient-to-br from-pink-500 to-purple-500 rounded-full flex items-center justify-center">
                   <span className="text-white text-2xl">👋</span>
                 </div> */}
-
               </div>
 
               {/* Name and Title */}
@@ -52,8 +55,16 @@ export default function About() {
               </div>
 
               {/* Download CV */}
-              <a href="https://drive.google.com/file/d/1DOBvWtBoFOn0t_M9sv7HIjDPbU_07YkD/view?usp=sharing" target="_blank" className="text-m underline flex ml-5 items-center">
-                Download CV <ArrowRight size={16} className="ml-1" />
+              <a
+                href="https://drive.google.com/uc?export=download&id=1k2HeSdWSGQeYIUNXcw16bedTLw4D9Nml"
+                download
+                className="group relative inline-flex items-center gap-2 ml-8 pl-10 pr-10 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105"
+              >
+                Download CV
+                <span className="transform transition-transform duration-300 group-hover:translate-x-1">
+                  <ArrowRight />
+                </span>
+                <span className="absolute inset-0 bg-white opacity-10 rounded-full scale-0 group-hover:scale-150 transition-transform duration-500"></span>
               </a>
             </div>
 
@@ -101,8 +112,10 @@ export default function About() {
               <div className="bg-[#141313] text-white p-6 rounded-lg italic text-xl flex items-start space-x-4">
                 <img src={emage} alt="quote" className="w-18 h-18 m-2" />
                 <p className="mt-4 ml-5 text-base">
-                  “I'm Aamir Ahmad from Delhi, currently pursuing Frontend Web Development at Masai School with a focus on React.js. 
-                  I'm passionate about building user-friendly web applications and growing as a developer.”
+                  “I'm Aamir Ahmad from Delhi, currently pursuing Frontend Web
+                  Development at Masai School with a focus on React.js. I'm
+                  passionate about building user-friendly web applications and
+                  growing as a developer.”
                 </p>
               </div>
             </div>

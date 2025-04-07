@@ -6,6 +6,8 @@ import Shopkart from "../assets/Flipkart.png";
 import ebay from "../assets/E-bay.png";
 import hotstar from "../assets/hotstar.png";
 import portfolio from "../assets/Portfolio.png";
+import SS from '../assets/recioe.png'
+
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -15,6 +17,7 @@ export default function Projects() {
     ebay,
     hotstar,
     portfolio,
+    SS,
   };
 
   useEffect(() => {

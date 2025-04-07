@@ -70,7 +70,17 @@
             "live": "https://personlaportfolio.vercel.app",
             "source": "https://github.com/Aamir-786687/Portfolio/tree/main/portfolio_react",
             "description": "A personal portfolio website showcasing skills, projects, and experience with smooth UI, animations, and responsive design.",
-            "techStack": "React, HTML, CSS and Firebase"
+            "techStack": "React, HTML, Tailwind CSS and Firebase"
+          },
+          {
+            "id": 5,
+            "title": "Recipe Application",
+            "days": "4 days work",
+            "image": "SS",
+            "live": "https://recipe-application-aamir-ahmads-projects.vercel.app/home",
+            "source": "https://github.com/Aamir-786687/Recipe_Application",
+            "description": "A recipe management web app allowing users to add to favorites, remove from favorites, and search recipes with category filters and user authentication—built with Firebase and React for a smooth, responsive experience.",
+            "techStack": "React, HTML, Tailwind CSS and Firebase"
           }
           
     ],
