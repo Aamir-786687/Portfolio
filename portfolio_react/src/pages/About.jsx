@@ -56,7 +56,7 @@ export default function About() {
 
               {/* Download CV */}
               <a
-                href="https://drive.google.com/uc?export=download&id=1k2HeSdWSGQeYIUNXcw16bedTLw4D9Nml"
+                href="https://drive.google.com/file/d/1k2HeSdWSGQeYIUNXcw16bedTLw4D9Nml/view?usp=sharing"
                 download
                 className="group relative inline-flex items-center gap-2 ml-8 pl-10 pr-10 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105"
               >
