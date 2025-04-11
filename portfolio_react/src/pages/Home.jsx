@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         {/* Right Section */}
-        <div className="w-full mt-8 md:mt-0 flex justify-center items-center">
+        <div className="w-[70%] mt-8 md:mt-0 flex justify-center items-center">
           <div className="w-[80%] max-w-[500px] sm:max-w-[600px] aspect-[3/4] sm:aspect-[5/4]">
             <Spline3D />
           </div>
