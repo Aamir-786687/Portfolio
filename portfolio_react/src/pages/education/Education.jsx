@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import {
-  ArrowRight,
   GraduationCap,
   Calendar,
   MapPin,
-  Award,
 } from "lucide-react";
 
 export default function Education() {
@@ -25,14 +23,21 @@ export default function Education() {
       <main className="w-full md:ml-[240px] flex-1">
         <div className="max-w-6xl mx-auto">
           <div className="p-4 sm:p-6 md:p-8">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8 text-Black">MY EDUCATION</h2>
+          <h2 className="mb-8 sm:mb-12">
+              <span className="text-3xl sm:text-4xl font-bold text-[#333]">My </span>
+              <span className="text-3xl sm:text-4xl font-bold text-pink-500">
+                Education
+              </span>
+            </h2>
 
-            <div className="grid gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12">
+            <div className="grid gap-6 sm:gap-8 mb-10">
               {educationData.map((item, index) => (
                 <div
                   key={index}
-                  className={`p-4 sm:p-6 rounded-2xl shadow-lg transition-all ${
-                    index % 2 === 0 ? "bg-white text-gray-800" : "text-white"
+                  className={`p-6 rounded-2xl shadow-lg transition-all ${
+                    index % 2 === 0
+                      ? "bg-white text-gray-800"
+                      : "text-white"
                   }`}
                   style={
                     index % 2 !== 0
@@ -43,35 +48,31 @@ export default function Education() {
                       : {}
                   }
                 >
-                  <div className="flex flex-col md:flex-row md:items-start gap-4 sm:gap-6">
+                  <div className="flex flex-col md:flex-row gap-4">
                     <div className="md:w-1/2 space-y-2">
-                      <div className="flex items-center gap-2 font-semibold text-base sm:text-lg">
+                      <div className="flex items-center gap-2 font-semibold text-lg">
                         <GraduationCap
                           size={18}
                           className={
                             index % 2 === 0 ? "text-[#ff6b8b]" : "text-white"
                           }
                         />
-                        <span className="text-sm sm:text-base font-semibold">
-                          {item.degree}
-                        </span>
+                        <span>{item.degree}</span>
                       </div>
-                      <div className="flex items-center gap-2 text-xs sm:text-sm">
-                        <Calendar size={12} />
+                      <div className="flex items-center gap-2 text-sm">
+                        <Calendar size={14} />
                         <span>{item.period}</span>
                       </div>
-                      <div className="flex items-center gap-2 text-xs sm:text-sm">
-                        <MapPin size={12} />
+                      <div className="flex items-center gap-2 text-sm">
+                        <MapPin size={14} />
                         <span>{item.location}</span>
                       </div>
-                      <div className="text-xs sm:text-sm font-medium">
-                        {item.institution}
-                      </div>
+                      <div className="text-sm font-medium">{item.institution}</div>
+                      <div className="text-sm font-semibold italic">{item.specialization}</div>
                     </div>
-                    <div className="md:w-3/4 space-y-2 sm:space-y-4">
-                      <p className="text-xs sm:text-sm leading-relaxed">
-                        {item.description}
-                      </p>
+
+                    <div className="md:w-1/2">
+                      <p className="text-sm leading-relaxed">{item.description}</p>
                     </div>
                   </div>
                 </div>

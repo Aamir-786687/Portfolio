@@ -2,6 +2,7 @@
     "educationData": [
         {
             "degree": "Full Stack Development Course",
+            "specialization": "Frontend Development",
             "institution": "Masai",
             "location": "Bangalore, Karnataka",
             "period": "2024 - 2025",

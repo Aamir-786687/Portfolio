@@ -25,7 +25,7 @@ export default function Skills() {
         <div className="max-w-6xl mx-auto">
           {/* Technical Skills Section */}
           <div className="mb-8 sm:mb-12 md:mb-16">
-            <h2 className="text-center mb-8 sm:mb-12">
+            <h2 className="mb-8 sm:mb-12">
               <span className="text-3xl sm:text-4xl font-bold text-[#333]">My </span>
               <span className="text-3xl sm:text-4xl font-bold text-pink-500">
                 Technical Skills

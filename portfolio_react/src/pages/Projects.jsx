@@ -29,7 +29,12 @@ export default function Projects() {
     <div className="flex min-h-screen bg-white">
       <main className="w-full md:ml-[240px] flex-1 p-4 sm:p-6 md:p-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">RECENT PROJECT</h2>
+        <h2 className="mb-8 sm:mb-12">
+              <span className="text-3xl sm:text-4xl font-bold text-[#333]">Recent </span>
+              <span className="text-3xl sm:text-4xl font-bold text-pink-500">
+                 Projects
+              </span>
+            </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             {projects.map((project) => (
