@@ -10,13 +10,13 @@ export default function Home() {
       <div className="w-full md:ml-[240px] flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-10 py-10 md:py-20">
         {/* Left Section */}
         <div className="max-w-xl space-y-4 md:space-y-6 text-center md:text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight font-['Playfair_Display'] tracking-tight">
             MY NAME IS <br />
             <span className="text-pink-500 hover:text-black transition-colors duration-400 cursor-pointer">
               AAMIR AHMAD
             </span>
           </h1>
-          <p className="text-lg md:text-xl">
+          <p className="text-lg md:text-xl font-['Poppins']">
             <span className="font-bold">Frontend Developer</span> based in
             Delhi, India
           </p>

@@ -8,21 +8,23 @@ export default function About() {
   return (
     <div className="flex min-h-screen bg-white">
       <Sidebar activePage="about" />
-      <main className="w-full md:ml-[180px] flex-1">
+      <main className="w-full md:ml-[240px] flex-1">
         <div className="max-w-6xl mx-auto p-4 sm:p-6 md:p-8">
-          <p className="italic text-center text-sm text-gray-500">Nice to meet you!</p>
-          <h2 className="mb-8 sm:mb-12 text-center">
+          <p className="italic text-sm text-gray-500 font-['Poppins'] text-center ">Nice to meet you!</p>
+          
+          <h2 className="mb-8 sm:mb-12 text-center font-['Playfair_Display']">
               <span className="text-3xl sm:text-4xl font-bold text-[#333]">Welcome{' '}</span>
               <span className="text-3xl sm:text-4xl font-bold text-pink-500">
-                to...
+                To...
               </span>
             </h2>
+
 
           <div className="flex flex-col md:flex-row mt-8 md:mt-10 gap-8 md:gap-12">
             {/* LEFT COLUMN */}
             <div className="md:w-1/3 flex flex-col items-center md:items-start">
               {/* Contact Info */}
-              <div className="space-y-4 mb-6 text-sm w-full">
+              <div className="space-y-4 mb-6 text-sm w-full font-['Poppins']">
                 <div className="flex items-center space-x-2">
                   <Phone size={16} />
                   <span>+91 7065252643</span>
@@ -47,10 +49,10 @@ export default function About() {
 
               {/* Name and Title */}
               <div className="text-center md:text-left mb-6">
-                <h3 className="text-2xl font-bold">
+                <h3 className="text-2xl font-bold font-['Playfair_Display']">
                   <span className="text-pink-600">AAMIR AHMAD</span>
                 </h3>
-                <p className="text-sm italic">
+                <p className="text-sm italic font-['Poppins']">
                   <strong>Frontend Developer</strong> based in <em>India</em>
                 </p>
               </div>
@@ -59,7 +61,7 @@ export default function About() {
               <a
                 href="https://drive.google.com/uc?export=download&id=1k2HeSdWSGQeYIUNXcw16bedTLw4D9Nml"
                 download
-                className="group relative inline-flex items-center gap-2 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105"
+                className="group relative inline-flex items-center gap-2 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105 font-['Poppins']"
               >
                 Download CV
                 <span className="transform transition-transform duration-300 group-hover:translate-x-1">
@@ -74,14 +76,14 @@ export default function About() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-8">
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
-                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold">
+                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold font-['Playfair_Display']">
                       400+
                     </span>
-                    <span className="text-sm leading-tight">
+                    <span className="text-sm leading-tight font-['Poppins']">
                       Git <br /> Commits
                     </span>
                   </div>
-                  <p className="text-sm">
+                  <p className="text-sm font-['Poppins']">
                     I am a frontend web designer & developer with a passion for
                     creating clean, minimal, and user-friendly websites.
                   </p>
@@ -90,12 +92,12 @@ export default function About() {
                 {/* Projects */}
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
-                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold">3</span>
-                    <span className="text-sm leading-tight">
+                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold font-['Playfair_Display']">3</span>
+                    <span className="text-sm leading-tight font-['Poppins']">
                       Projects <br /> Completed
                     </span>
                   </div>
-                  <p className="text-sm">
+                  <p className="text-sm font-['Poppins']">
                     While I'm currently pursuing frontend web development at
                     Masai School, I've already completed 3 hands-on projects
                     that helped me build a strong foundation in web development.
@@ -103,7 +105,7 @@ export default function About() {
                 </div>
               </div>
 
-              <p className="text-sm mb-8">
+              <p className="text-sm mb-8 font-['Poppins']">
                 As a dedicated learner at Masai School, I am gaining real-world
                 skills through hands-on projects and daily coding practice. My
                 journey is just beginning, and I'm excited to grow further with
@@ -112,7 +114,7 @@ export default function About() {
 
               <div className="bg-[#141313] text-white p-4 sm:p-6 rounded-lg italic text-lg sm:text-xl flex items-start space-x-4">
                 <img src={emage} alt="quote" className="w-12 h-12 sm:w-18 sm:h-18 m-2" />
-                <p className="mt-2 sm:mt-4 ml-2 sm:ml-5 text-sm sm:text-base">
+                <p className="mt-2 sm:mt-4 ml-2 sm:ml-5 text-sm sm:text-base font-['Poppins']">
                   "I'm Aamir Ahmad from Delhi, currently pursuing Frontend Web
                   Development at Masai School with a focus on React.js. I'm
                   passionate about building user-friendly web applications and

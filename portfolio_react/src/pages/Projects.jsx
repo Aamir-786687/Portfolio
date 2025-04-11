@@ -27,9 +27,9 @@ export default function Projects() {
 
   return (
     <div className="flex min-h-screen bg-white">
-      <main className="w-full md:ml-[180px] flex-1 p-4 sm:p-6 md:p-8">
+      <main className="w-full md:ml-[240px] flex-1 p-4 sm:p-6 md:p-8">
         <div className="max-w-6xl mx-auto">
-        <h2 className="mb-8 sm:mb-12 text-center">
+        <h2 className="mb-8 sm:mb-12 text-center font-['Playfair_Display']">
               <span className="text-3xl sm:text-4xl font-bold text-[#333]">Recent{' '}</span>
               <span className="text-3xl sm:text-4xl font-bold text-pink-500">
                 Projects
@@ -48,10 +48,10 @@ export default function Projects() {
                   className="w-full h-auto object-cover"
                 />
                 <div className="p-4 sm:p-6">
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-xs sm:text-sm text-gray-600 mb-2">{project.days}</p>
-                  <p className="text-xs sm:text-sm text-gray-700 mb-3 sm:mb-4">{project.description}</p>
-                  <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2 font-['Playfair_Display']">{project.title}</h3>
+                  <p className="text-xs sm:text-sm text-gray-600 mb-2 font-['Poppins']">{project.days}</p>
+                  <p className="text-xs sm:text-sm text-gray-700 mb-3 sm:mb-4 font-['Poppins']">{project.description}</p>
+                  <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4 font-['Poppins']">
                     <strong>Tech Stack:</strong> {project.techStack}
                   </p>
                   <div className="flex gap-3 sm:gap-4">
@@ -60,7 +60,7 @@ export default function Projects() {
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center text-blue-600 hover:underline text-xs sm:text-sm"
+                        className="flex items-center text-blue-600 hover:underline text-xs sm:text-sm font-['Poppins']"
                       >
                         <Globe className="w-3 h-3 sm:w-4 sm:h-4 mr-1" /> Live
                       </a>
@@ -69,7 +69,7 @@ export default function Projects() {
                       href={project.source}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center text-gray-800 hover:underline text-xs sm:text-sm"
+                      className="flex items-center text-gray-800 hover:underline text-xs sm:text-sm font-['Poppins']"
                     >
                       <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1" /> Code
                     </a>

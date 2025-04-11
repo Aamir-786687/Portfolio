@@ -20,8 +20,8 @@ export default function Education() {
         <div className="max-w-6xl mx-auto">
           <div className="p-4 sm:p-6 md:p-8">
             {/* Centered Title */}
-            <h2 className="mb-8 sm:mb-12 text-center">
-              <span className="text-3xl sm:text-4xl font-bold text-[#333]">My </span>
+            <h2 className="mb-8 sm:mb-12 text-center font-['Playfair_Display']">
+              <span className="text-3xl sm:text-4xl font-bold text-[#333]">My{' '}</span>
               <span className="text-3xl sm:text-4xl font-bold text-pink-500">
                 Education
               </span>
