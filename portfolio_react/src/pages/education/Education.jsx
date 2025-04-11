@@ -15,7 +15,7 @@ export default function Education() {
   }, []);
 
   return (
-    <div className="flex min-h-screen bg-white">
+    <div className="flex min-h-screen bg-white font-['Playfair_Display']">
       <main className="w-[full] md:ml-[140px] flex-1">
         <div className="max-w-6xl mx-auto">
           <div className="p-4 sm:p-6 md:p-8">
