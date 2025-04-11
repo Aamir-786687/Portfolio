@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import {
-  GraduationCap,
-  Calendar,
-  MapPin,
-} from "lucide-react";
+import { GraduationCap, Calendar, MapPin } from "lucide-react";
 
 export default function Education() {
   const [educationData, setEducationData] = useState([]);
@@ -20,10 +16,11 @@ export default function Education() {
 
   return (
     <div className="flex min-h-screen bg-white">
-      <main className="w-full md:ml-[180px] flex-1">
+      <main className="w-[full] md:ml-[140px] flex-1">
         <div className="max-w-6xl mx-auto">
           <div className="p-4 sm:p-6 md:p-8">
-          <h2 className="mb-8 sm:mb-12">
+            {/* Centered Title */}
+            <h2 className="mb-8 sm:mb-12 text-center">
               <span className="text-3xl sm:text-4xl font-bold text-[#333]">My </span>
               <span className="text-3xl sm:text-4xl font-bold text-pink-500">
                 Education
