@@ -10,16 +10,16 @@ export default function Home() {
       <Sidebar />
 
       {/* Content */}
-      <div className="ml-[150px] flex flex-col md:flex-row items-center justify-between w-full px-10 py-20">
+      <div className="w-full md:ml-[240px] flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-10 py-10 md:py-20">
         {/* Left Side */}
-        <div className="max-w-xl space-y-6">
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight">
+        <div className="max-w-xl space-y-4 md:space-y-6 text-center md:text-left">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight">
             MY NAME IS <br />
             <span className="text-pink-500 hover:text-black transition-colors duration-400 cursor-pointer">
               AAMIR AHMAD
             </span>
           </h1>
-          <p className="text-xl">
+          <p className="text-lg md:text-xl">
             <span className="font-bold">Frontend Developer</span> based in
             Delhi, India
           </p>
@@ -38,8 +38,8 @@ export default function Home() {
         </div>
 
         {/* Right Side */}
-        <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center items-center">
-          <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px]">
+        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
+          <div className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px]">
             <Spline3D />
           </div>
         </div>

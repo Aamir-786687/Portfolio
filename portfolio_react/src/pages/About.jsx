@@ -8,12 +8,12 @@ export default function About() {
   return (
     <div className="flex min-h-screen bg-white">
       <Sidebar activePage="about" />
-      <main className="ml-[80px] flex-1">
-        <div className="max-w-6xl mx-auto p-8">
+      <main className="w-full md:ml-[240px] flex-1">
+        <div className="max-w-6xl mx-auto p-4 sm:p-6 md:p-8">
           <p className="italic text-sm text-gray-500">Nice to meet you!</p>
-          <h2 className="text-4xl font-bold mt-2">WELCOME TO...</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mt-2">WELCOME TO...</h2>
 
-          <div className="flex flex-col md:flex-row mt-10 gap-12">
+          <div className="flex flex-col md:flex-row mt-8 md:mt-10 gap-8 md:gap-12">
             {/* LEFT COLUMN */}
             <div className="md:w-1/3 flex flex-col items-center md:items-start">
               {/* Contact Info */}
@@ -32,24 +32,20 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="relative w-[250px] h-[250px] mb-6">
+              <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] mb-6">
                 <img
                   src={ME}
                   alt="Aamir Ahmad"
                   className="rounded-full object-cover w-full h-full bg-gray-200"
                 />
-
-                {/* <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-gradient-to-br from-pink-500 to-purple-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-2xl">👋</span>
-                </div> */}
               </div>
 
               {/* Name and Title */}
               <div className="text-center md:text-left mb-6">
-                <h3 className="text-2xl ml-4 font-bold">
+                <h3 className="text-2xl font-bold">
                   <span className="text-pink-600">AAMIR AHMAD</span>
                 </h3>
-                <p className="text-sm italic ml-4">
+                <p className="text-sm italic">
                   <strong>Frontend Developer</strong> based in <em>India</em>
                 </p>
               </div>
@@ -58,7 +54,7 @@ export default function About() {
               <a
                 href="https://drive.google.com/uc?export=download&id=1k2HeSdWSGQeYIUNXcw16bedTLw4D9Nml"
                 download
-                className="group relative inline-flex items-center gap-2 ml-8 pl-10 pr-10 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105"
+                className="group relative inline-flex items-center gap-2 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105"
               >
                 Download CV
                 <span className="transform transition-transform duration-300 group-hover:translate-x-1">
@@ -70,10 +66,10 @@ export default function About() {
 
             {/* RIGHT COLUMN */}
             <div className="md:w-2/3">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-8">
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
-                    <span className="text-pink-500 text-3xl font-bold">
+                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold">
                       400+
                     </span>
                     <span className="text-sm leading-tight">
@@ -89,14 +85,14 @@ export default function About() {
                 {/* Projects */}
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
-                    <span className="text-pink-500 text-3xl font-bold">3</span>
+                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold">3</span>
                     <span className="text-sm leading-tight">
                       Projects <br /> Completed
                     </span>
                   </div>
                   <p className="text-sm">
-                    While I’m currently pursuing frontend web development at
-                    Masai School, I’ve already completed 3 hands-on projects
+                    While I'm currently pursuing frontend web development at
+                    Masai School, I've already completed 3 hands-on projects
                     that helped me build a strong foundation in web development.
                   </p>
                 </div>
@@ -105,17 +101,17 @@ export default function About() {
               <p className="text-sm mb-8">
                 As a dedicated learner at Masai School, I am gaining real-world
                 skills through hands-on projects and daily coding practice. My
-                journey is just beginning, and I’m excited to grow further with
+                journey is just beginning, and I'm excited to grow further with
                 every line of code.
               </p>
 
-              <div className="bg-[#141313] text-white p-6 rounded-lg italic text-xl flex items-start space-x-4">
-                <img src={emage} alt="quote" className="w-18 h-18 m-2" />
-                <p className="mt-4 ml-5 text-base">
-                  “I'm Aamir Ahmad from Delhi, currently pursuing Frontend Web
+              <div className="bg-[#141313] text-white p-4 sm:p-6 rounded-lg italic text-lg sm:text-xl flex items-start space-x-4">
+                <img src={emage} alt="quote" className="w-12 h-12 sm:w-18 sm:h-18 m-2" />
+                <p className="mt-2 sm:mt-4 ml-2 sm:ml-5 text-sm sm:text-base">
+                  "I'm Aamir Ahmad from Delhi, currently pursuing Frontend Web
                   Development at Masai School with a focus on React.js. I'm
                   passionate about building user-friendly web applications and
-                  growing as a developer.”
+                  growing as a developer."
                 </p>
               </div>
             </div>

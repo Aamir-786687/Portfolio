@@ -8,7 +8,6 @@ import hotstar from "../assets/hotstar.png";
 import portfolio from "../assets/Portfolio.png";
 import SS from '../assets/recioe.png'
 
-
 export default function Projects() {
   const [projects, setProjects] = useState([]);
 
@@ -28,46 +27,46 @@ export default function Projects() {
 
   return (
     <div className="flex min-h-screen bg-white">
-      <main className="ml-[80px] flex-1 p-8">
+      <main className="w-full md:ml-[240px] flex-1 p-4 sm:p-6 md:p-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">RECENT PROJECT</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">RECENT PROJECT</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="bg-gray-100 rounded-xl overflow-hidden shadow-md"
+                className="bg-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
               >
                 <img
                   src={imageMap[project.image]}
                   alt={project.title}
-                  className="w-auto h-auto object-cover"
+                  className="w-full h-auto object-cover"
                 />
-                <div className="p-4">
-                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-sm text-gray-600 mb-2">{project.days}</p>
-                  <p className="text-sm text-gray-700 mb-4">{project.description}</p>
-                  <p className="text-sm text-gray-500 mb-4">
+                <div className="p-4 sm:p-6">
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2">{project.title}</h3>
+                  <p className="text-xs sm:text-sm text-gray-600 mb-2">{project.days}</p>
+                  <p className="text-xs sm:text-sm text-gray-700 mb-3 sm:mb-4">{project.description}</p>
+                  <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">
                     <strong>Tech Stack:</strong> {project.techStack}
                   </p>
-                  <div className="flex gap-4">
+                  <div className="flex gap-3 sm:gap-4">
                     {project.live !== "#" && (
                       <a
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center text-blue-600 hover:underline"
+                        className="flex items-center text-blue-600 hover:underline text-xs sm:text-sm"
                       >
-                        <Globe className="w-4 h-4 mr-1" /> Live
+                        <Globe className="w-3 h-3 sm:w-4 sm:h-4 mr-1" /> Live
                       </a>
                     )}
                     <a
                       href={project.source}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center text-gray-800 hover:underline"
+                      className="flex items-center text-gray-800 hover:underline text-xs sm:text-sm"
                     >
-                      <Github className="w-4 h-4 mr-1" /> Code
+                      <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1" /> Code
                     </a>
                   </div>
                 </div>
