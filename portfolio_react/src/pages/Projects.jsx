@@ -27,7 +27,7 @@ export default function Projects() {
 
   return (
     <div className="flex min-h-screen bg-white">
-      <main className="w-full md:ml-[240px] flex-1 p-4 sm:p-6 md:p-8">
+      <main className="w-full md:ml-[180px] flex-1 p-4 sm:p-6 md:p-8">
         <div className="max-w-6xl mx-auto">
         <h2 className="mb-8 sm:mb-12">
               <span className="text-3xl sm:text-4xl font-bold text-[#333]">Recent </span>

@@ -20,7 +20,7 @@ export default function Education() {
 
   return (
     <div className="flex min-h-screen bg-white">
-      <main className="w-full md:ml-[240px] flex-1">
+      <main className="w-full md:ml-[180px] flex-1">
         <div className="max-w-6xl mx-auto">
           <div className="p-4 sm:p-6 md:p-8">
           <h2 className="mb-8 sm:mb-12">
