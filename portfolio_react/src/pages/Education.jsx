@@ -4,7 +4,7 @@ import { GraduationCap } from "lucide-react";
 const Education = () => {
   return (
     <div className="flex min-h-screen bg-white">
-      <main className="w-full md:ml-[240px] flex-1 p-4 sm:p-6 md:p-8">
+      <main className="w-full md:ml-[140px] flex-1 p-4 sm:p-6 md:p-8">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8 font-['Playfair_Display']">
             Education
