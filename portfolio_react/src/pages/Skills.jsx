@@ -21,7 +21,7 @@ export default function Skills() {
 
   return (
     <div className="flex min-h-screen bg-white">
-      <main className="w-full md:ml-[240px] flex-1 p-4 sm:p-6 md:p-8">
+      <main className="w-full md:ml-[120px] flex-1 p-4 sm:p-6 md:p-8">
         <div className="max-w-6xl mx-auto">
           {/* Technical Skills Section */}
           <div className="mb-8 sm:mb-12 md:mb-16">
