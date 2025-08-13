@@ -77,14 +77,14 @@ export default function About() {
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
                     <span className="text-pink-500 text-2xl sm:text-3xl font-bold font-['Playfair_Display']">
-                      400+
+                      600+
                     </span>
                     <span className="text-sm leading-tight font-['Poppins']">
                       Git <br /> Commits
                     </span>
                   </div>
                   <p className="text-sm font-['Poppins']">
-                    I am a frontend web designer & developer with a passion for
+                    I am a fullstack developer with a passion for
                     creating clean, minimal, and user-friendly websites.
                   </p>
                 </div>
@@ -92,7 +92,7 @@ export default function About() {
                 {/* Projects */}
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
-                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold font-['Playfair_Display']">3</span>
+                    <span className="text-pink-500 text-2xl sm:text-3xl font-bold font-['Playfair_Display']">6</span>
                     <span className="text-sm leading-tight font-['Poppins']">
                       Projects <br /> Completed
                     </span>

@@ -17,7 +17,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-lg md:text-xl font-['Poppins']">
-            <span className="font-bold">Frontend Developer</span> based in
+            <span className="font-bold">Full Stack Developer</span> based in
             Delhi, India
           </p>
 

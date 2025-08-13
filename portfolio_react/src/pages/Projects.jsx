@@ -7,6 +7,7 @@ import ebay from "../assets/E-bay.png";
 import hotstar from "../assets/hotstar.png";
 import portfolio from "../assets/Portfolio.png";
 import SS from '../assets/recioe.png'
+import chatgptClone from "../assets/chatgptClone.png";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -17,6 +18,7 @@ export default function Projects() {
     hotstar,
     portfolio,
     SS,
+    chatgptClone
   };
 
   useEffect(() => {
