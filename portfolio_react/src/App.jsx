@@ -11,10 +11,10 @@ import Education from "./pages/education/Education";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col md:flex-row bg-white min-h-screen">
+      <div className="flex flex-col md:flex-row bg-white h-screen">
         <Sidebar />
         
-        <div className="md:ml-[240px] w-full p-4 md:p-6"> {/* Responsive padding and margin */}
+        <div className="md:ml-[240px] w-full p-4 md:p-6 h-screen overflow-y-auto overflow-x-hidden"> {/* Responsive padding and margin */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

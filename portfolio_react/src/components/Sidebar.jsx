@@ -24,7 +24,7 @@ export default function Sidebar() {
         {/* Logo */}
         <div className="text-center">
           <div className="text-3xl font-extrabold text-white tracking-tight">
-            A A
+           PORTFOLIO
           </div>
         </div>
 

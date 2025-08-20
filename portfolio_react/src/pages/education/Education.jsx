@@ -15,12 +15,12 @@ export default function Education() {
   }, []);
 
   return (
-    <div className="flex min-h-screen bg-white font-['Playfair_Display']">
+    <div className="flex min-h-screen bg-white">
       <main className="w-[full] md:ml-[140px] flex-1">
         <div className="max-w-6xl mx-auto">
           <div className="p-4 sm:p-6 md:p-8">
             {/* Centered Title */}
-            <h2 className="mb-8 sm:mb-12 text-center font-['Playfair_Display']">
+            <h2 className="mb-8 sm:mb-12 text-center">
               <span className="text-3xl sm:text-4xl font-bold text-[#333]">My{' '}</span>
               <span className="text-3xl sm:text-4xl font-bold text-pink-500">
                 Education
@@ -31,7 +31,7 @@ export default function Education() {
               {educationData.map((item, index) => (
                 <div
                   key={index}
-                  className={`p-6 rounded-2xl shadow-lg transition-all ${
+                  className={`p-6 rounded-2xl shadow-lg transition-all border-2 border-black ${
                     index % 2 === 0
                       ? "bg-white text-gray-800"
                       : "text-white"

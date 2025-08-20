@@ -1,22 +1,18 @@
-import Sidebar from "../components/Sidebar";
 import { ArrowRight } from "lucide-react";
 import Spline3D from "../components/Spline3D";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen bg-white relative">
-      <Sidebar />
-
-      <div className="w-full md:ml-[140px] flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-10 py-10 md:py-20">
+      <div className="w-full min-h-[80vh] flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 md:px-10 text-center">
         {/* Left Section */}
         <div className="max-w-xl space-y-4 md:space-y-6 text-center md:text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight font-['Playfair_Display'] tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight tracking-tight">
             MY NAME IS <br />
             <span className="text-pink-500 hover:text-black transition-colors duration-400 cursor-pointer">
               AAMIR AHMAD
             </span>
           </h1>
-          <p className="text-lg md:text-xl font-['Poppins']">
+          <p className="text-lg md:text-xl">
             <span className="font-bold">Full Stack Developer</span> based in
             Delhi, India
           </p>
@@ -36,12 +32,12 @@ export default function Home() {
         </div>
 
         {/* Right Section */}
-        <div className="w-80%  mt-8 md:mt-0 flex justify-center items-center">
+        <div className="w-80% ml-20 mt-8 md:mt-0 flex justify-center items-center">
           <div className="w-[90%] h-50% sm:w-[80%] md:w-[500px] aspect-square sm:aspect-[5/4]">
             <Spline3D />
           </div>
         </div>
+
       </div>
-    </div>
   );
 }
