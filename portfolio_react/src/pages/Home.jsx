@@ -22,7 +22,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1C9nekTkfdEviz4ZyXU4In6qM-l813kHF/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/1VfheNIDQbrg9q3NRxbhVWGzpsDk5ir0e?usp=drive_link"
             target="_blank"
             rel="noreferrer"
             className="group relative inline-flex items-center gap-2 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105"
@@ -36,8 +36,8 @@ export default function Home() {
         </div>
 
         {/* Right Section */}
-        <div className="w-[70%] mt-8 md:mt-0 flex justify-center items-center">
-          <div className="w-[80%] max-w-[500px] sm:max-w-[600px] aspect-[3/4] sm:aspect-[5/4]">
+        <div className="w-80%  mt-8 md:mt-0 flex justify-center items-center">
+          <div className="w-[90%] h-50% sm:w-[80%] md:w-[500px] aspect-square sm:aspect-[5/4]">
             <Spline3D />
           </div>
         </div>

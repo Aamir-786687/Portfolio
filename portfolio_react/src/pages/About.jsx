@@ -59,7 +59,7 @@ export default function About() {
 
               {/* Download CV */}
               <a
-                href="https://drive.google.com/uc?export=download&id=1k2HeSdWSGQeYIUNXcw16bedTLw4D9Nml"
+                href="https://drive.google.com/drive/folders/1VfheNIDQbrg9q3NRxbhVWGzpsDk5ir0e?usp=drive_link"
                 download
                 className="group relative inline-flex items-center gap-2 bg-black text-white font-semibold px-6 py-3 rounded-full shadow-md overflow-hidden transition-all duration-300 hover:bg-white hover:text-black hover:scale-105 font-['Poppins']"
               >
@@ -98,8 +98,8 @@ export default function About() {
                     </span>
                   </div>
                   <p className="text-sm font-['Poppins']">
-                    While I'm currently pursuing frontend web development at
-                    Masai School, I've already completed 3 hands-on projects
+                    While I'm currently pursuing Full-Stack web development at
+                    Masai School, I've already completed 6 hands-on projects
                     that helped me build a strong foundation in web development.
                   </p>
                 </div>
@@ -115,10 +115,10 @@ export default function About() {
               <div className="bg-[#141313] text-white p-4 sm:p-6 rounded-lg italic text-lg sm:text-xl flex items-start space-x-4">
                 <img src={emage} alt="quote" className="w-12 h-12 sm:w-18 sm:h-18 m-2" />
                 <p className="mt-2 sm:mt-4 ml-2 sm:ml-5 text-sm sm:text-base font-['Poppins']">
-                  "I'm Aamir Ahmad from Delhi, currently pursuing Frontend Web
-                  Development at Masai School with a focus on React.js. I'm
-                  passionate about building user-friendly web applications and
-                  growing as a developer."
+                  "I'm Aamir Ahmad from Delhi, and I have completed Full Stack Web Development 
+                  at Masai School with a focus on the MERN stack. 
+                  I'm passionate about building scalable, user-friendly 
+                  applications and continuously improving my skills as a developer."
                 </p>
               </div>
             </div>
