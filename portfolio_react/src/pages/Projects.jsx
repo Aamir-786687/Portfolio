@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Globe, Github } from "lucide-react";
-
 import Shopkart from "../assets/Flipkart.png";
 import ebay from "../assets/E-bay.png";
 import hotstar from "../assets/hotstar.png";
