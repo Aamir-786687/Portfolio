@@ -23,7 +23,7 @@ export default function Projects() {
   useEffect(() => {
     axios.get("https://portfolio-main-7d511-default-rtdb.firebaseio.com/projectData.json")
       .then((res) => setProjects(res.data))
-      .catch((err) => console.error("Failed to fetch project data", err));
+      .catch((error) => console.error("Failed to fetch project data", error));
   }, []);
 
   return (
