@@ -14,7 +14,7 @@ function App() {
       <div className="flex flex-col md:flex-row bg-white h-screen">
         <Sidebar />
         
-        <div className="md:ml-[240px] w-full p-4 md:p-6 h-screen overflow-y-auto overflow-x-hidden"> {/* Responsive padding and margin */}
+        <div className="md:ml-[200px] lg:ml-[220px] xl:ml-[240px] w-full p-4 md:p-6 h-screen overflow-y-auto overflow-x-hidden"> {/* Responsive padding and margin */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

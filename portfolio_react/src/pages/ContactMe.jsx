@@ -9,11 +9,6 @@ const ContactMe = () => {
     message: "",
   });
 
-  useEffect(() => {
-    document.body.classList.add("no-scrollbar");
-    return () => document.body.classList.remove("no-scrollbar");
-  }, []);
-
   const handleChange = (e) => {
     setFormData((prev) => ({
       ...prev,
@@ -39,37 +34,37 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6 p-3 sm:p-4 md:p-6 h-screen bg-white overflow-hidden">
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-4 md:gap-6 lg:gap-8 p-3 sm:p-4 md:p-6 h-screen bg-white overflow-hidden">
       {/* Left Side */}
-             <div className="max-w-md text-black space-y-3 text-center md:text-left">
-        <p className="text-sm font-semibold text-gray-500">CONTACT</p>
-        <h2 className="text-2xl sm:text-3xl font-bold">REACH OUT TO ME</h2>
+             <div className="w-full max-w-sm lg:max-w-md text-black space-y-3 sm:space-y-4 text-center lg:text-left">
+        <p className="text-xs sm:text-sm font-semibold text-gray-500">CONTACT</p>
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">REACH OUT TO ME</h2>
                  <p className="text-gray-600 text-xs sm:text-sm">
            Got a project in mind or just want to say hi? I'm always up for a good chat.
          </p>
                  <div className="space-y-1">
-           <p className="text-base sm:text-lg font-bold">+91 70 65 25 26 43</p>
+           <p className="text-sm sm:text-base md:text-lg font-bold">+91 70 65 25 26 43</p>
            <p className="text-gray-700 text-xs sm:text-sm">aamir557ahmad@gmail.com</p>
          </div>
-                 <div className="flex gap-4 text-black text-base justify-center md:justify-start">
+                 <div className="flex gap-4 text-black text-sm sm:text-base justify-center lg:justify-start">
           <a href="https://github.com/Aamir-786687" target="_blank" rel="noreferrer" className="hover:text-pink-500 transition-colors">
-            <Github />
+            <Github size={20} className="sm:w-5 sm:h-5 md:w-6 md:h-6" />
           </a>
           <a href="https://www.linkedin.com/in/ah-aamir/" target="_blank" rel="noreferrer" className="hover:text-pink-500 transition-colors">
-            <Linkedin />
+            <Linkedin size={20} className="sm:w-5 sm:h-5 md:w-6 md:h-6" />
           </a>
           
         </div>
       </div>
 
-             <h1 className="text-xl font-bold hidden md:block">OR</h1>
+             <h1 className="text-lg sm:text-xl font-bold hidden lg:block">OR</h1>
 
       {/* Right Side - Form */}
              <form
          onSubmit={handleSubmit}
-         className="w-full max-w-md bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 p-4 sm:p-6 rounded-xl shadow-lg text-white"
+         className="w-full max-w-sm lg:max-w-md bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 p-3 sm:p-4 md:p-6 rounded-xl shadow-lg text-white"
        >
-                 <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">ANY PROJECT?</h3>
+                 <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-2 sm:mb-3">ANY PROJECT?</h3>
 
         <input
           type="text"
