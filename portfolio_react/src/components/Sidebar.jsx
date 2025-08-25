@@ -20,11 +20,11 @@ export default function Sidebar() {
       {/* Sidebar */}
       <div className={`sidebar fixed top-0 left-0 h-full w-[200px] sm:w-[220px] md:w-[240px] bg-gradient-to-b from-gray-900 to-black flex flex-col justify-between py-4 sm:py-6 px-3 sm:px-4 shadow-xl z-40
         ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-300 ease-in-out`}>
-        
+
         {/* Logo */}
         <div className="text-center">
           <div className="text-xl sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight">
-           PORTFOLIO
+            PORTFOLIO
           </div>
         </div>
 
@@ -112,30 +112,44 @@ export default function Sidebar() {
         </div>
 
         {/* Social Icons */}
-        <div className="flex flex-col items-center space-y-3 sm:space-y-4 text-gray-300">
-          <a href="https://github.com/Aamir-786687" target="_blank" className="hover:text-cyan-400 transition">
-            <Github size={16} className="sm:w-4 sm:h-4 md:w-5 md:h-5" />
+        <div className="flex items-center ml-17 space-x-3 sm:space-x-4 text-gray-300">
+          <a
+            href="https://github.com/Aamir-786687"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-400 transition"
+          >
+            <Github className="sm:w-4 sm:h-4 md:w-5 md:h-5" />
           </a>
-          
-          <a href="https://www.linkedin.com/in/ah-aamir/" target="_blank" className="hover:text-cyan-400 transition">
-            <Linkedin size={16} className="sm:w-4 sm:h-4 md:w-5 md:h-5" />
+
+          <a
+            href="https://www.linkedin.com/in/ah-aamir/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-400 transition"
+          >
+            <Linkedin className="sm:w-4 sm:h-4 md:w-5 md:h-5" />
           </a>
-         
-          <div className="text-[6px] sm:text-[7px] md:text-[8px] text-gray-400 mt-3 sm:mt-4 leading-tight text-center">
-            © 2025 Aamir Ahmad
-            <br />
-            All rights reserved.
-          </div>
+        </div>
+
+
+        <div className="text-[6px] sm:text-[7px] md:text-[8px] text-gray-400 mt-3 sm:mt-4 leading-tight text-center">
+          © 2025 Aamir Ahmad
+          <br />
+          All rights reserved.
         </div>
       </div>
+    
 
-      {/* Overlay for mobile */}
-      {isOpen && (
-        <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
-          onClick={() => setIsOpen(false)}
-        />
-      )}
+      {/* Overlay for mobile */ }
+  {
+    isOpen && (
+      <div
+        className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
+        onClick={() => setIsOpen(false)}
+      />
+    )
+  }
     </>
   );
 }

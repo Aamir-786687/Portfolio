@@ -38,11 +38,11 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="relative w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[250px] md:h-[250px] mb-6 flex items-center justify-center bg-gray-50 rounded-full">
+              <div className="relative w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[250px] md:h-[250px] mb-6 flex items-center justify-center bg-gray-50 rounded-full overflow-hidden">
                 <img
                   src={ME2}
                   alt="Aamir Ahmad"
-                  className="rounded-full object-cover w-full h-full shadow-lg border-2 border-gray-200"
+                  className="w-full h-full object-contain shadow-lg border-2 border-gray-200"
                   onError={(e) => {
                     console.error('Image failed to load:', e.target.src);
                     e.target.style.display = 'none';
