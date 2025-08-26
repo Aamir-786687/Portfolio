@@ -72,7 +72,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="flex items-center text-gray-800 hover:underline text-xs sm:text-sm"
                     >
-                      <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1" /> Code
+                      <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-2" /> Code
                     </a>
                   </div>
                 </div>
