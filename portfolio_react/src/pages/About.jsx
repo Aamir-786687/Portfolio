@@ -89,13 +89,13 @@ export default function About() {
                 {/* Projects */}
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
-                    <span className="text-pink-500 text-xl sm:text-2xl md:text-3xl font-bold">6</span>
+                    <span className="text-pink-500 text-xl sm:text-2xl md:text-3xl font-bold">5</span>
                     <span className="text-xs sm:text-sm leading-tight">
                       Projects <br /> Completed
                     </span>
                   </div>
                   <p className="text-xs sm:text-sm">
-                  While pursuing Full-Stack Web Development at Masai School, I have completed 6 
+                  While pursuing Full-Stack Web Development at Masai School, I have completed 5
                   hands-on projects that helped me build a strong foundation in web development.
                   </p>
                 </div>
