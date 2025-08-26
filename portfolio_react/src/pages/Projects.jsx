@@ -4,7 +4,7 @@ import { Globe, Github } from "lucide-react";
 import Shopkart from "../assets/Flipkart.png";
 import ebay from "../assets/E-bay.png";
 import hotstar from "../assets/hotstar.png";
-import portfolio from "../assets/Portfolio.png";
+// import portfolio from "../assets/Portfolio.png";
 import SS from '../assets/recioe.png'
 import chatgptClone from "../assets/chatgptClone.png";
 
@@ -15,7 +15,7 @@ export default function Projects() {
     Shopkart,
     ebay,
     hotstar,
-    portfolio,
+    // portfolio,
     SS,
     chatgptClone
   };
